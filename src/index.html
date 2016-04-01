@@ -22,13 +22,23 @@
     text-align: center;
 }
 </style>
+<script>
+function validate() {
+    var username = document.forms["login"]["username"].value;
+    var password = document.forms["login"]["password"].value;
+    if (username == null || username == "" || password == null || password == "" ) {
+        alert("Please enter a username and password");
+        return false;
+    }
+}
+</script>
 </head>
 
 <body>
 <div id="main">
     <h1 id="main-header">SimplyServe</h2>
 
-    <form id="login_box">
+    <form name="login" action="home.html" onsubmit="return validate()">
     <input type="text" name="username" placeholder="Username" />
     <input type="password" name="password" placeholder="Password" />
     <input type="submit" value="Login" />

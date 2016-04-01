@@ -3,6 +3,7 @@ body {
     background-color: #2B2D42;
     color: #fff;
     width: 100%;
+    margin: 0;
 }
 input {
     display: block;
