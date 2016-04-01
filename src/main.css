@@ -19,7 +19,7 @@ input[type=text], input[type=password] {
 input[type=submit] {
     background-color: #D80032;
 }
-/* I copied this from stack overflow */
+/* I copied this from stack overflow. Apparently there's not a pretty way to do it. */
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    white;
 }
