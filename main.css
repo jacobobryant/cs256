@@ -1,0 +1,43 @@
+body {
+    position: relative;
+    background-color: #2B2D42;
+    color: #fff;
+    width: 100%;
+}
+input {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    line-height: 250%;
+    color: white;
+    background-color: #8D99AE;
+    border-style: none;
+}
+input[type=text], input[type=password] {
+    padding-left: 10px;
+}
+input[type=submit] {
+    background-color: #D80032;
+}
+/* I copied this from stack overflow */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
